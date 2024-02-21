@@ -137,6 +137,11 @@ body{
     font-size: 17px;
     line-height: 40px;
     text-align: justify;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #00d9ffcc;
+    padding: 10px;
 }
 .about-img-container{
     position: relative;
@@ -182,7 +187,7 @@ body{
     color: transparent;
     text-transform: capitalize;
     font-weight: 300;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .skill-container {
@@ -214,10 +219,15 @@ body{
 }
 
 .info-skill {
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #00d9ffcc;
     text-align: center;
-    opacity: 0.5;
-    font-size: 18px;
+    opacity: 0.7;
+    font-size: 17px;
     line-height: 30px;
+    padding: 10px;
 }
 
 .level-skill {
@@ -282,6 +292,16 @@ body{
     background: #02b7ff62;
     border-color: #ffd900b7;
     color: #00d9ff;
+}
+.container-cert img {
+    margin: auto;
+    max-height:600px;
+    text-align: center;
+    display: flex;    
+    border: 10px solid;
+    border-radius: 50px;
+    border-color: #00d9ffcc;
+    
 }
 
 .contact-section{
