@@ -21,7 +21,104 @@ body{
     font-family: 'Relaway', sans-serif;
     padding-top: 80px;
 }
+/* Adaptações para telas menores */
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
 
+    .navbar {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .link-group {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link {
+        margin: 5px 0;
+    }
+
+    /* Adicione mais ajustes conforme necessário */
+}
+/* Adicione a regra geral para telas menores */
+@media only screen and (max-width: 768px) {
+    body {
+        padding-top: 60px; /* Ajuste o padding para a barra de navegação em telas menores */
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .link-group {
+        justify-content: center;
+    }
+
+    .link {
+        margin: 0px 10px;
+    }
+
+    .home-section {
+        padding: 0 20px;
+    }
+
+    .hello-heading {
+        font-size: 60px; /* Ajuste o tamanho do texto inicial para telas menores */
+    }
+
+    .home-img {
+        width: 100%; /* Faça com que a imagem ocupe toda a largura da tela */
+    }
+
+    .about-section {
+        padding: 50px 20px; /* Ajuste o padding para telas menores */
+    }
+
+    .about {
+        grid-template-columns: 100%; /* Altere para uma única coluna em telas menores */
+        grid-gap: 20px;
+    }
+
+    .about-info {
+        font-size: 16px; /* Ajuste o tamanho do texto para telas menores */
+    }
+
+    .skills-section {
+        margin: 40px 0;
+    }
+
+    .heading {
+        font-size: 40px; /* Ajuste o tamanho do título de habilidades para telas menores */
+    }
+
+    .skill-container {
+        grid-gap: 20px;
+    }
+
+    .skills-card {
+        text-align: center;
+    }
+
+    .level-skill {
+        top: 20px;
+        font-size: 18px;
+    }
+
+    .contact-section {
+        padding: 50px 20px;
+        grid-template-columns: 100%;
+    }
+
+    .map {
+        height: 300px; /* Ajuste a altura do mapa para telas menores */
+    }
+}
 /* NavBar */
 .navbar{
     width: 92%;
@@ -75,7 +172,6 @@ body{
     align-items: center;
     top: 0;
     opacity: 1;
-    
 }
 
 .hello-heading {
@@ -137,11 +233,7 @@ body{
     font-size: 17px;
     line-height: 40px;
     text-align: justify;
-    border-style:solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: #00d9ffcc;
-    padding: 10px;
+ 
 }
 .about-img-container{
     position: relative;
@@ -219,15 +311,12 @@ body{
 }
 
 .info-skill {
-    border-style:solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: #00d9ffcc;
+    
     text-align: center;
     opacity: 0.7;
     font-size: 17px;
     line-height: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .level-skill {
